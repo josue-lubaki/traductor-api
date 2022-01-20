@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import translate
+from .routers import translate, synthesize
+from starlette.responses import FileResponse
 
 app = FastAPI()
 
@@ -14,6 +15,7 @@ app.add_middleware(
 )
 
 app.include_router(translate.router)
+app.include_router(synthesize.router)
 
 
 @app.get("/")
