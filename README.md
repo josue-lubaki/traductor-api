@@ -13,6 +13,8 @@
     API_KEY=YOUR-API-KEY
     URL_INSTANCE=YOUR-URL
     version=YOUR-VERSION
+    API_KEY_TEXT_SPEECH=YOUR-URL-TEXT-SPEECH
+    URL_INSTANCE_TEXT_SPEECH=YOUR-URL-TEXT-SPEECH
 ```
 * Running project : ```http://127.0.0.1:8000```
 * Access the docs : ```http://127.0.0.1:8000/docs```
