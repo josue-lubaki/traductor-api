@@ -23,7 +23,7 @@
     - POST Method:
     ```
     {
-        "text" : "Je m'appelle Josue Lubaki, j'aime le éveloppement mobile, API et d'application Web",
+        "text" : "Je m'appelle Josue Lubaki, j'aime le développement mobile, API et d'application Web",
         "model_id":"fr-en"
     }
     ```
